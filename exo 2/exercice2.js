@@ -1,9 +1,12 @@
+let fruits = prompt("entrer le nom d'un fruit");
 
-(fruits) {
-    "Banana":
-    alert("Hello")
-    break;
-    "Apple":
-    alert("Welcome")
-    break;
+switch(fruits) {
+    case "Banana": case "banana":
+        alert("Hello");
+        break;
+    case "Apple": case "apple":
+        alert("Welcome");
+        break;
+    default:
+        alert("aucun des deux");
 }
